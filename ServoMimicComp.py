@@ -23,7 +23,7 @@ random.seed(1)
 # Defining the socket for the computer and port it will connect
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 port = 9001  # Variable for port (has to be the same as the one your Pi connects to)
-RPiIP = "10.0.0.129"  # Variable to put your Pi's IP Address
+RPiIP = "xx.xxx.xxx.x"  # Variable to put your Pi's IP Address
 client_socket.connect((RPiIP, port))  # Connects to Raspberry Pi
 # Defining get_screen function for USB Camera
 
