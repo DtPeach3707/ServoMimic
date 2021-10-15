@@ -7,7 +7,7 @@ It eventually learns what images correspond to each angle and every certain epis
 # How to get it working
 - Have all the libraries used in the code for each device installed on their respective devices (most should be preinstalled, except for Tensorflow or PIL)
 - Have a servo motor fastened or stuck down somewhere to where when the RPi sends a signal for it to move it doesn't move the rest of the part and where a USB camera can have constant feed of it. Also make sure that there is a fairly apparent color contrast between what the servo motor is turning (some attachment you can just put on the top gear) and the background of the image. 
-- Wire the RPi correctly (will be shown in a diagram soon once the PCB website I'm using is no longer down for maintenance). All you need is 5V, ground, and an unique GPIO pin for each servo. No other components are required (if you want you could use an LCD to display loss, or something like that)
+- Wire the RPi correctly (make sure you have GPIO pins 11 and 12 for the first and second servos respectivley). All you need is 5V, ground, and an unique GPIO pin for each servo. No other components are required (if you want you could use an LCD to display loss, or something like that)
 - Run the code on the RPi first, wait until the RPi prints out "Socket is listening"
 - Start running the code on the computer, and then it should start learning
 
